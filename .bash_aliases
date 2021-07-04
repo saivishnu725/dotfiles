@@ -21,3 +21,9 @@ alias m='make '
 alias mr='make run'
 alias cdp='cd /home/saivishnu/Programs'
 alias vim='nvim'
+
+# Some Arch Linux things
+alias install='sudo pacman -S '
+alias update='sudo pacman -Syu'
+alias upgrade='sudo pacman -Syyu'
+alias uninstall='sudo pacman -Rnsu'

@@ -1,4 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+:# ~/.bashrc: executed by bash(1) for non-login shells.
 #eval `dircolors /home/saivishnu/.dir_colors/dircolors`
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
