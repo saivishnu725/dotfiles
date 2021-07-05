@@ -2,6 +2,8 @@
 	email = saivishnu725@gmail.com
 	name = Sai Vishnu
 [core]
-	editor = nano
+	editor = vim
 [credential]
 	helper = store
+[init]
+	defaultBranch = master
