@@ -109,5 +109,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export CHROME_EXECUTABLE="/sbin/brave"
+export CHROME_EXECUTABLE="/usr/bin/brave-browser"
 export PATH="$PATH:/home/saivishnu/Development/flutter/bin"
+. "$HOME/.cargo/env"
