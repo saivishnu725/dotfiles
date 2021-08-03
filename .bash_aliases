@@ -31,6 +31,7 @@ alias m='make '
 alias mr='make run'
 alias cdp='cd /home/saivishnu/Programs'
 alias vim='nvim'
+alias pg='ping google.com'
 current_distro=$(awk -F= '$1 == "ID" { print $2 }' /etc/*-release)
 close_distro=$(awk -F= '$1 == "ID_LIKE" { print $2 }' /etc/*-release)
 #if ["$close_distro" = "arch"]; then

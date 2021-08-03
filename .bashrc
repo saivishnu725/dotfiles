@@ -112,3 +112,4 @@ fi
 export CHROME_EXECUTABLE="/usr/bin/brave-browser"
 export PATH="$PATH:/home/saivishnu/Development/flutter/bin"
 . "$HOME/.cargo/env"
+setxkbmap us

@@ -7,3 +7,5 @@
 	helper = store
 [init]
 	defaultBranch = master
+[color]
+	ui = auto
