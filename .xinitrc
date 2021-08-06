@@ -10,10 +10,11 @@ while true; do
 	else
 		xsetroot -name "$(cat /sys/class/power_supply/BAT0/capacity)% | $( date "+%F %R")"
 	sleep 1M
+
 done &
 
 # invoke global X session script
-. /etc/X11/Xsession
+#. /etc/X11/Xsession
 
 exec sxhkd &
 exec dwm
