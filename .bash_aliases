@@ -36,19 +36,20 @@ current_distro=$(awk -F= '$1 == "ID" { print $2 }' /etc/*-release)
 close_distro=$(awk -F= '$1 == "ID_LIKE" { print $2 }' /etc/*-release)
 #if ["$close_distro" = "arch"]; then
 	# Some Arch based things
-#	alias install='sudo pacman -S'
-#	alias update='sudo pacman -Syu'
-#	alias upgrade='sudo pacman -Syyu'
-#	alias uninstall='sudo pacman -Rnsu'
+	alias install='sudo pacman -S'
+	alias update='sudo pacman -Syu'
+	alias upgrade='sudo pacman -Syyu'
+	alias uninstall='sudo pacman -Rnsu'
 #elif  [$(close_distro | grep debian) = "debian"]; then
 	# Some Debian based things
-        alias install='sudo apt install'
-	alias update='sudo apt update'
-	alias upgrade='sudo apt upgrade'
-	alias uninstall='sudo apt remove'
+#        alias install='sudo apt install'
+#	alias update='sudo apt update'
+#	alias upgrade='sudo apt upgrade'
+#	alias uninstall='sudo apt remove'
 #else
 	# Some Fedora things
 #	alias install='sudo dnf install'
 #	alias upgrade='sudo dnf upgrade'
 #	alias uninstall='sudo dnf remove'
 #fi
+alias cls='clear'
