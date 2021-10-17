@@ -279,6 +279,7 @@ alias personal='cp -Rf /personal/* ~'
 # reporting tools - install when not installed
 # install neofetch
 neofetch
+cpufetch
 # install screenfetch
 #screenfetch
 # install ufetch-git
