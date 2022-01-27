@@ -276,7 +276,7 @@ ex ()
 [[ -f ~/.bash_aliases ]] && . ~/.bash_aliases
 
 # reporting tools - install when not installed
-flashfetch
+fastfetch
 # install neofetch
 #neofetch
 #cpufetch
