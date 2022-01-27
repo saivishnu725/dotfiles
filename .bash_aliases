@@ -25,24 +25,24 @@ alias gitac='git add . && git commit -m'
 alias upgrade='sudo apt update && sudo apt upgrade'
 alias video='mpv '
 alias dd='dd status=progress '
-alias fcr='echo \"flutter\ create\ \-\-project\-name\ Calculator\ \-\-org\ com\.vishnu\ \-\-description\ \"A\ simple\ calculator\ app\ to\ check\ my\ Flutter\ knowledge\.\ \ Calculator\/'
+#alias fcr='echo \"flutter\ create\ \-\-project\-name\ Calculator\ \-\-org\ com\.vishnu\ \-\-description\ \"A\ simple\ calculator\ app\ to\ check\ my\ Flutter\ knowledge\.\ \ Calculator\/'
 alias m='make '
 alias mr='make run'
-alias cdw='cd /home/saivishnu/Programs/rust/'
+alias cdw='cd /home/saivishnu/Programs/c/1-BCA-C/'
 alias vim='nvim'
 alias pg='ping google.com'
 	
 	# Some Arch based things
-	alias install='sudo pacman -S'
-	alias update='sudo pacman -Syu'
-	alias upgrade='sudo pacman -Syyu'
-	alias uninstall='sudo pacman -Rnsu'
+#	alias install='sudo pacman -S'
+#	alias update='sudo pacman -Syu'
+#	alias upgrade='sudo pacman -Syyu'
+#	alias uninstall='sudo pacman -Rnsu'
 	
 	# Some Debian based things
-#        alias install='sudo apt install'
+        alias install='sudo apt install'
 #	alias update='sudo apt update'
 #	alias upgrade='sudo apt upgrade'
-#	alias uninstall='sudo apt remove'
+	alias uninstall='sudo apt remove'
 
 	# Some Fedora things
 #	alias install='sudo dnf install'
