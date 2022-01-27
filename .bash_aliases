@@ -48,3 +48,4 @@ alias pg='ping google.com'
 #	alias install='sudo dnf install'
 #	alias upgrade='sudo dnf upgrade'
 #	alias uninstall='sudo dnf remove'
+alias sql="mysql -p -u saivishnu"
