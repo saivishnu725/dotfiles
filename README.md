@@ -1,11 +1,8 @@
 # Dotfiles
 
 This is a repo to hold the dotfiles I use.
-
-# Tool used
-
-[yadm.io](https://yadm.io) 
+hyprland setup based on some youtuber
 
 # Current Operating System
 
-Arch Linux x86_64 with 5.12.14-14-arch1-1 kernel
+Arch Linux hehehehe 6.17.9-arch1-1 #1 SMP PREEMPT_DYNAMIC Mon, 24 Nov 2025 15:21:09 +0000 x86_64 GNU/Linux
